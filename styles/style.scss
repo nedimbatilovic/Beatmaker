@@ -75,7 +75,7 @@ svg {
     button {
         padding: 1rem;
         border: none;
-        background: gray;
+        background: rgb(85, 85, 85);
         color: white;
         font-size: 1rem;
         cursor: pointer;
@@ -90,7 +90,7 @@ svg {
 .play {
     padding: 1rem 2rem;
     font-size: 1.5rem;
-    background: gray;
+    background: rgb(85, 85, 85);
     color: white;
     border: none;
     cursor: pointer;
@@ -101,6 +101,31 @@ select {
     padding: 1rem;
     font-size: 1rem;
     padding-left: 1rem;
+}
+
+.mute.active {
+    background: rgb(163, 163, 163);
+}
+
+.tempo {
+    margin: 3rem;
+    width: 30%;
+    p {
+        font-size: 1.5rem;
+        margin: 2rem;
+        text-align: center;
+    }
+}
+
+.tempo-slider {
+    padding: 0.2rem;
+    -webkit-appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    background: rgb(88, 88, 88);
+    cursor: pointer;
+    border-radius: 1rem;
 }
 
 @keyframes playTrack {
